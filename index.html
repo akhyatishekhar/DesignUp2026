@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DesignUp 2026 Learnings</title>
+<meta name="description" content="Learnings and reflections from DesignUp 2026 by Khyati.">
+<meta name="color-scheme" content="dark">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <b>DesignUp 2026</b>
+    <span class="mono dim">Learnings &amp; reflections by Khyati</span>
+  </header>
+
+  <section class="hero">
+    <span class="pill"><i></i>Bengaluru · 3–4 Oct 2026</span>
+    <h1><em>Learnings</em> &amp; reflections from DesignUp 2026</h1>
+    <p class="lede"><b>DesignUp</b> is an annual design conference in Bengaluru. This year's theme: <b><em>Design at Crossroads.</em></b></p>
+    <div class="facts">
+      <div><b>10th</b><span class="mono dim">edition</span></div>
+      <div><b>~1,400</b><span class="mono dim">designers</span></div>
+      <div><b>20+</b><span class="mono dim">talks</span></div>
+      <div><b>8</b><span class="mono dim">takeaways</span></div>
+    </div>
+  </section>
+
+  <div class="sh"><h2>Eight <em>takeaways</em></h2><span class="mono dim">Hover to preview · click to open</span></div>
+  <section class="route" id="cards"></section>
+
+  <div class="sh"><h2>The <em>route</em> through it</h2><span class="mono dim">Click a stop</span></div>
+  <section class="map"><div class="mapscroll" id="map"></div></section>
+
+  <div class="sh"><h2>Lines I'm <em>keeping</em></h2></div>
+  <section class="cols">
+    <div class="col"><span class="n">01.</span><p>You didn't get replaced. You resigned.</p><cite>Jay Demetillo</cite></div>
+    <div class="col"><span class="n">02.</span><p>AI made individual work easy, and collective work impossible.</p><cite>Loredana Crisan, Figma</cite></div>
+    <div class="col"><span class="n">03.</span><p>Don't succumb. Adapt.</p><cite>Kara Pernice, NN/g</cite></div>
+  </section>
+
+  <footer class="foot">
+    <div class="word" aria-hidden="true">DesignUp 2026</div>
+    <div class="row"><span class="mono dim">Learnings &amp; reflections by Khyati</span><span class="mono dim">Paraphrased from my notes and photos</span></div>
+  </footer>
+</div>
+
+<dialog id="dlg" aria-labelledby="mt">
+  <div class="mhead"><span class="mono dim" id="mwho"></span><button class="x" id="mx" aria-label="Close">×</button></div>
+  <div class="mbody">
+    <h2 class="mtitle" id="mt"></h2>
+    <div class="tabs" role="tablist">
+      <button class="tab" role="tab" data-t="idea">The idea</button>
+      <button class="tab" role="tab" data-t="detail">Details</button>
+      <button class="tab" role="tab" data-t="slides">Slides</button>
+    </div>
+    <div id="pane"></div>
+  </div>
+</dialog>
+<script src="main.js"></script>
+</body>
+</html>
